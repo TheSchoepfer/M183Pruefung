@@ -21,9 +21,8 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
         * 
         *
         * SQL Injections
-        * In den Eingabefeldern werden Erweiterungen zur SQL Abfrage,
-        * welche sich im hintergrund abspielt, eingegeben. Somit kann
-        * sich der Hacker ohne Username oder Passwort einloggen.
+        * Man kann SQL befehle anhängen. Dies kann bewirken, dass die Datenbank verändert oder sogar ausgelesen werden kann.
+        * Hier ist die Verschlüsselung der Passwörter besonders wichtig.
         * 
         * */
 
