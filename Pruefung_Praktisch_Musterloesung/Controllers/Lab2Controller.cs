@@ -19,6 +19,18 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
         * 
         * ANTWORTEN BITTE HIER
         * 
+        *         
+        * Session Fixation
+        * Wenn jemand einen Link mit der SessionID verschickt, kann die zweite Person
+        * auf alle Daten der 1. Person sehen, da er jetzt in dieser Session aktiv ist.
+        * 
+        * 
+        * SQL-Injections
+        * Man kann SQL befehle anhängen. Dies kann bewirken, dass die Datenbank verändert oder sogar ausgelesen werden kann.
+        * Hier ist die Verschlüsselung der Passwörter besonders wichtig.
+        *
+        * 
+        *
         * */
 
         public ActionResult Index() {
