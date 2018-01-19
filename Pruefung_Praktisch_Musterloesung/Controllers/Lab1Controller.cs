@@ -11,8 +11,14 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
     {
         /**
          * 
-         * ANTWORTEN BITTE HIER
+         * Directory Traversal
+         *
+         * Hacker kann in der Detailansicht den Pfad abändern und unter umständen auf andere Dateien zugreifen (Was unerwünscht ist)
          * 
+         * 
+         * File Inclusion
+         * 
+         * Hacker kann sein eigenes File einbinden und ausführen.
          * */
 
 
@@ -80,7 +86,7 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
                 var absolutepath = Request.Url.AbsolutePath;
 
                 var filename = Path.GetFileName(file);
-                var imageuri = scheme + "://" + host + ":" + port + "/Content/images/" + type + "/" + filename;
+                var imageuri = scheme + "://" + host + ":" + port + "/Content/imagesa/" + type + "/" + filename;
 
                 var urilistelement = new List<string>();
                 urilistelement.Add(filename);
