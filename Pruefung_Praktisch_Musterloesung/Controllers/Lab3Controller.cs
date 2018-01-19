@@ -15,6 +15,16 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
         * 
         * ANTWORTEN BITTE HIER
         * 
+        * XSS Attacks
+        * Man kann im Kommentar (bei anderen beispielen gästebuch oder ähnliches) ein Script einfügen.
+        * Wenn die Seite nicht ausreichend geschützt ist, kann man zB einen Keylogger installieren oder schlimmeres
+        * 
+        *
+        * SQL Injections
+        * In den Eingabefeldern werden Erweiterungen zur SQL Abfrage,
+        * welche sich im hintergrund abspielt, eingegeben. Somit kann
+        * sich der Hacker ohne Username oder Passwort einloggen.
+        * 
         * */
 
         public ActionResult Index() {

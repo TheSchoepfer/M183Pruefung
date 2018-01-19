@@ -20,7 +20,7 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
         * ANTWORTEN BITTE HIER
         * 
         *         
-        * Session Fixation
+        * Session Fixaion
         * Wenn jemand einen Link mit der SessionID verschickt, kann die zweite Person
         * auf alle Daten der 1. Person sehen, da er jetzt in dieser Session aktiv ist.
         * 
